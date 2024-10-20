@@ -87,10 +87,10 @@ const Footer = () => {
 
       <div className="part3">
         <h1>Follow us on</h1>
-        <a href="#"><FaSquareInstagram className="icon"/></a>
-        <a href="#"><RiFacebookCircleFill className="icon"/></a>
-        <a href="#"><FaXTwitter className="icon" /></a>
-        <a href="#"><FaYoutube className="icon"/></a>
+        <a href="https://www.instagram.com/chaperoneplants/?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw%3D%3D"><FaSquareInstagram className="icon"/></a>
+        <a href="https://www.facebook.com/?_rdr"><RiFacebookCircleFill className="icon"/></a>
+        <a href="https://www.threads.net/login"><FaXTwitter className="icon" /></a>
+        <a href="https://www.youtube.com/"><FaYoutube className="icon"/></a>
       </div>
       <hr/>
 

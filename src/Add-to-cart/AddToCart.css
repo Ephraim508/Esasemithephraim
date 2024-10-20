@@ -1,0 +1,70 @@
+.addtocart {
+  width: 360px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.yourcart {
+  width: 80px;
+  height: 30px;
+  top: 37px;
+  font-family: Poppins;
+  color: #0f4811;
+  font-size: 18px;
+}
+
+.wishMsg {
+  width: 230px;
+  height: 90px;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.pot {
+  width: 97px;
+  height: 105px;
+
+  margin-bottom: 7px;
+}
+
+.conclusion {
+  width: 422px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #165315;
+  margin-bottom: 8px;
+}
+
+
+.continue {
+  margin-top: 10px;
+  width: 190px;
+  height: 40px;
+  background: #165315;
+  color: #ffff;
+  font-size: 20px;
+  font-family: Poppins;
+
+  padding: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}

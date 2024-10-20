@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+.plant-container {
+  width: 100%;
+  padding: 15px;
+}
+.plant-container .plant-sec1 {
+  width: 100%;
+}
+
+.buttons .plant {
+  width: 76px;
+  height: 32px;
+  background-color: #165315;
+  margin-right: 13px;
+  color: #ffff;
+  outline: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.buttons .pots {
+  width: 76px;
+  height: 32px;
+  color: #838383;
+  outline: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+.plant-container .plant-sec1 p {
+  width: 80%;
+  margin-top: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #838383;
+}
+.plant-sec2 {
+  margin-top: 10px;
+}
+
+.plant-sec2 h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+
+.plants-images {
+  width: 100%;
+  margin-top: 6px;
+  display: flex;
+}
+
+.plants-images .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+ 
+  margin-right: 20px;
+  padding: 6px;
+}
+
+.plants-images .desc img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+}
+.plants-images .desc p {
+  font-size: 14px;
+  font-family: Poppins;
+  color: #838383;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.plants-section3 {
+  margin-top: 14px;
+  width: 100%;
+  display: flex;
+}
+
+.plants-section3 .left {
+  width: 30%;
+
+  background-color: #f0ffe5;
+  height: 500px;
+  padding: 10px;
+}
+.plants-section3 .left .left-desc {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right {
+  width: 80%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.plant-image {
+  width: 268px;
+  height: 320px;
+border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.wishlist {
+  width: 268px;
+  height: 30px;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+}
+.wishlist-icon {
+  width: 30px;
+  height: 28px;
+  padding: 3px;
+}
+.plant-image img {
+  width: 255px;
+  height: 246px;
+}
+
+.plant-image .view-product {
+  width: 268px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  background-color: #165315;
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 6px;
+  border: none;
+}
+
+.plants-image-desc {
+  width: 268px;
+  height: 160px;
+}
+
+.plants-image-desc h1 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+
+.plants-image-desc p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.rating-div {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 3px;
+  align-items: center;
+}
+
+.rating-div img {
+  margin-right: 10px;
+  width: 87px;
+  height: 19px;
+}
+.price {
+  display: flex;
+}
+
+.price .old-price {
+  margin-right: 5px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: #5e5a5ab2;
+}
+
+.price .new-price {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  color: #5e5a5a;
+}
+.buttons-add {
+  display: flex;
+  margin-top: 5px;
+}
+.buttons-add .add-to-cart {
+  width: 149px;
+  height: 37px;
+
+  border-radius: 5px;
+  padding: 4px;
+  background: #165315;
+  color: #ffff;
+  font-family: Poppins;
+  font-size: 18px;
+  border: none;
+  margin-right: 5px;
+}
+
+.buttons-add .buy-rent {
+  width: 149px;
+  height: 37px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 18px;
+  padding: 4px;
+  background-color: transparent;
+  color: #165315;
+  border: 1px solid #165315;
+}
+.rightsec-pagination {
+  display: flex;
+  flex-direction: column;
+}
+.right-sec2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.page-button {
+  width: 35px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border: none;
+}
+.page-button.active {
+  background-color: #4caf50; /* Choose your preferred color */
+  color: white;
+}

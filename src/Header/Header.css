@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.header-section {
+  width: 100%;
+}
+
+.header-section .part-1 {
+  width: 100%;
+  height: 33px;
+  background-color: #165315;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-section .part-1 p {
+  color: #ffff;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 20px;
+}
+.free-shopping {
+  margin-left: 40%;
+}
+
+.header-section .part-2 {
+  width: 100%;
+  height: 97px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+.header-section .part-2 .logo {
+  width: 213px;
+  height: 61px;
+  top: 58px;
+  left: 53px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  align-items: center;
+}
+.header-section .part-2 .logo img {
+  width: 60px;
+  height: 61px;
+  top: 58px;
+  left: 53px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 6px;
+}
+.header-section .part-2 .logo h1 {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+
+.header-section .part-2 .lists {
+  display: flex;
+  list-style: none;
+}
+.header-section .part-2 .lists li {
+  margin-right: 20px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+.header-section .part-2 .profile-cart{
+    display: flex;
+}
+
+.header-section .part-2 .profile-cart .profile{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: Poppins;
+}
+.header-section .part-2 .profile-cart .cart{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: Poppins; 
+}
+.prof-icon{
+    width: 20px;
+    height: 20px;
+}
+.cart-icon{
+    width: 20px;
+    height: 20px;
+}
+.plantspots{
+    color: #F3A939;
+
+}
+
+.search-bar{
+ width: 400px;
+height: 25px;
+display: flex;
+align-items: center;
+margin: auto;
+
+}
+.search-icon{
+    width: 23px;
+    height: 22px;
+
+}
+
+.input{
+    width: 230px;
+    margin-left: 3px;
+    height: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+.search-bar-logo{
+    width:25pxpx;
+    margin-left: 3px;
+    height: 25px;
+}
